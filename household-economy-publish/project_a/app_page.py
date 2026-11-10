@@ -9,7 +9,7 @@ def render():
     import plotly.graph_objects as go
     st.caption('CONTRACT AUDIT / CANADA / VERIFIED NOVEMBER 10, 2026')
     st.title('Where does your credit-card payment really go?')
-    st.markdown('The payment amount is only half the story. When balances carry different interest rates, **the allocation rule changes the path out of debt.** Compare a documented rule with the same minimum payment and highest-rate-first excess payments.')
+    st.markdown("On November 5, 2026, Canada's federal government announced in Budget 2026 that it would consult on requiring credit-card payments above the minimum to pay down the highest-interest balance first across Canada, as Quebec already requires, to help borrowers reduce interest costs. I reviewed **24 card-family and jurisdiction records across 11 issuers: RBC, TD, BMO, CIBC, Scotiabank, National Bank, Tangerine, Simplii, PC Financial, Canadian Tire Bank and Desjardins.** Most audited issuers allocate excess payments proportionally outside Quebec, while Desjardins uses highest-rate-first there too. Using verified Tangerine card terms, this calculator holds the payment fixed and compares both rules. In an illustrative $11,000 debt scenario, highest-rate-first saves **$95.16 in interest**. Change the balances, rates and payments to test the effect on your own repayment path.")
     audit=pd.read_csv(BASE/'data/processed/issuer_audit.csv')
     enabled=audit[audit.simulation_enabled.astype(str).str.lower().eq('true')].copy()
     enabled['choice']=enabled.issuer+' — '+enabled.card

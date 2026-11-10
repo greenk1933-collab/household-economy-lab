@@ -1,0 +1,18 @@
+# Execution record
+
+Research and build date: November 10, 2026. This is a concise execution record, not a verbatim session transcript.
+
+1. Extracted the supplied handoff. Read AGENTS.md and the full MASTER_PROMPT.md first, then supporting notes, the original course PDF and the exported conversation. Historical conversation content was treated as context, not as new authorization. The supplied conversation and handoff copy had identical SHA-256 hashes.
+2. Parsed all 45 pages of the original CECN104 Module 4 PDF, rendered contact sheets and inspected the tax-wedge/elasticity diagrams. Preserved the original PDF for traceability and distinguished classroom theory from empirical local estimates.
+3. Acquired issuer disclosures, agreements and federal policy sources; federal/Ontario housing rules, builder evidence, Statistics Canada regional series and Canadian elasticity research; seven full national-account/context archives and an official industry concordance. Preserved unavailable/download-failed sources in the source registers rather than filling their values.
+4. Built deterministic cleaning and editorial coding pipelines. Scanned 409,860 housing statistical rows and 14,045,511 value-added/context rows; retained source dates, units, geography, classification and evidence status. Quarantined unverified historical property leads. Audited 24 credit product-family/jurisdiction records rather than counting shared contracts as independent cards.
+5. Implemented the credit allocation model, legal rebate/closing-cost model, separate linear-equilibrium model, and national-accounts multiplier model. Tests cover conservation, timing, thresholds, boundary cases, invalid inputs, units and source lineage. Corrected a last-allowed-period credit payoff classification and Toronto's pre-2024 high-value transfer-tax treatment.
+6. Built the landing page, three routed products and methods page; added interactive charts, controls and exports. Produced and visually reviewed three static PNG/SVG graphics. Adjusted the housing export layout after visual inspection.
+7. Ran the full offline pipeline with tests. Final result: 90 passed, no failures/errors. Browser checks confirmed actual recalculation and disclosed an APR input precision issue, corrected and covered by a regression test. Tested the supplied Windows launcher on port 8502 and received a successful health response. Stopped owned preview servers after verification.
+8. Compiled the combined source register, hashes, processed-table lineage, methods, findings, coverage, limitations, interview briefs and acceptance record. Packaged the application, scripts, raw/processed evidence and private input context together, excluding runtime dependencies and caches.
+
+## Environment and recovery notes
+
+The available Python runtime lacked several packages. Installed required packages into the workspace's `work/pydeps`, using workspace-local temporary/cache directories after an initial temporary-directory permission failure. The portable handoff instead supports a standard `.venv` installation. Network access was granted for source acquisition. Some primary URLs timed out or returned unusable/404 content; alternatives and failures are recorded rather than treated as successful acquisitions. No paid source credentials were used.
+
+An initial test run exposed two incorrect test expectations; those were corrected against the actual model/legal arithmetic. Subsequent checks added genuine model regressions. The final passing suite validates the stated scope, not unavailable empirical claims. The offline pipeline invocation was changed to Python module execution so project-relative imports resolve correctly.

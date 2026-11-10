@@ -1,0 +1,250 @@
+industry_code,industry_name,naics_2022_definition,ioic_2022_codes_with_notes
+T001,All industries,11 to 91,"BS11A to BS810, NP000, GS610 to GS914"
+T002,Goods-producing industries Table note 1,11 to 33,BS11A to BS3A0
+T003,Services-producing industries Table note 2,41 to 91,"BS410 to BS810, NP000, GS610 to GS914"
+T004,Business sector industries Table note 3,…,BS11A to BS810
+T007,Non-business sector industries Table note 3,...,"NP000, GS610 to GS914"
+T010,Industrial production Table note 1,"21, 22, 31 to 33, 562","BS210, BS220, BS3A0, BS562000"
+T011,Non-durable manufacturing industries,"311 to 316, 322 to 326","BS311100 to BS31B000, BS322100 to BS326200"
+T012,Durable manufacturing industries Table note 1,"321, 327 to 339","BS321100 to BS321900, BS327A00 to BS339900"
+T013,"Information and communication technology sector Table note 4 , Table note 5 , Table note 10","334 (excluding 3345), 4173, 5132, 517, 518, 519, 5415, 8112","BS334C00 Table note * , BS334200, BS334400, BS417000 Table note * , BS513200, BS517000, BS518000, BS519000, BS541500, BS811A00 Table note *"
+T014,"Information and communication technology, manufacturing 4",334 excluding 3345,"BS334C00 Table note * , BS334200, BS334400"
+T015,"Information and communication technology, services Table note 5 , Table note 10","4173, 5132, 517, 518, 519, 5415, 8112","BS417000 Table note * , BS513200, BS517000, BS518000, BS519000, BS541500, BS811A00 Table note *"
+T016,Energy sector 10,"211, 2121, 21229, 213111, 213118, 2211,2212, 32411, 486","BS211110, BS211140, BS212100, BS212290, BS21311A, BS221100, BS221200, BS324110, BS486A00, BS486200"
+T018,Public sector Table note 6,"61, 62, 91","BS610, NP610000, GS610, BS620, NP621000, NP624000, GS620, GS911 to GS914"
+11,"Agriculture, forestry, fishing and hunting Table note 7",11,"BS11A, BS113, BS114, BS115"
+11A,Crop and animal production Table note 7,"111, 112",BS11A
+111,Crop production Table note 7,111,"BS111A00, BS1114A0, BS111CL0, BS111CU0"
+111X,Crop production (except cannabis),111 (excluding 111412 and 111995),"BS111A00, BS1114A0"
+111A,"Crop production (except cannabis, greenhouse, nursery and floriculture production)",111 (excluding 1114 and 111995),BS111A00
+1114A,"Greenhouse, nursery and floriculture production (except cannabis)",1114 excluding 111412,BS1114A0
+111CL,Cannabis production (licensed),111412 and 111995,BS111CL0
+111CU,Cannabis production (unlicensed) Table note 7,111412 and 111995,BS111CU0
+112,Animal production and aquaculture,112,BS112000
+112A,Animal production (except aquaculture),112 excluding 1125,BS112A00
+1125,Aquaculture,1125,BS112500
+113,Forestry and logging,113,BS113
+114,"Fishing, hunting and trapping",114,BS114
+115,Support activities for agriculture and forestry,115,BS115
+115A,Support activities for crop and animal production,115 excluding 1153,BS115A00
+1153,Support activities for forestry,1153,BS115300
+21,"Mining, quarrying, and oil and gas extraction",21,BS210
+211,Oil and gas extraction,211,BS21100
+21111,Oil and gas extraction (except oil sands),21111,BS211110
+21114,Oil sands extraction,21114,BS211140
+212,Mining and quarrying (except oil and gas),212,"BS21210, BS21220, BS21230"
+2121,Coal mining,2121,BS212100
+2122,Metal ore mining,2122,BS21220
+21221,Iron ore mining,21221,BS212210
+21222,Gold and silver ore mining,21222,BS212220
+21223,"Copper, nickel, lead and zinc ore mining",21223,BS212230
+21229,Other metal ore mining,21229,BS212290
+2123,Non-metallic mineral mining and quarrying,2123,BS21230
+21231,Stone mining and quarrying,21231,BS212310
+21232,"Sand, gravel, clay, and ceramic and refractory minerals mining and quarrying",21232,BS212320
+21239,Other non-metallic mineral mining and quarrying,21239,"BS212392, BS21239A, BS212396"
+21239X,Other non-metallic mineral mining and quarrying (except potash),21239 excluding 212396,"BS212392, BS21239A"
+212396,Potash mining,212396,BS212396
+213,"Support activities for mining, and oil and gas extraction",213,BS21300
+21311A,Support activities for oil and gas extraction,"213111, 213118",BS21311A
+21311B,Support activities for mining,"213117, 213119",BS21311B
+22,Utilities,22,BS220
+2211,"Electric power generation, transmission and distribution",2211,BS221100
+2212,Natural gas distribution,2212,BS221200
+2213,"Water, sewage and other systems",2213,BS221300
+23,Construction,23,BS23A to BS23E
+23A,Residential building construction,...,BS23A
+23B,Non-residential building construction,...,BS23B
+23X,Engineering and other construction activities,...,"BS23C, BS23E"
+23D,Repair construction,...,BS23D
+31-33,Manufacturing,31 to 33,BS3A0
+311,Food manufacturing,311,BS311100 to BS311900
+3111,Animal food manufacturing,3111,BS311100
+3112,Grain and oilseed milling,3112,BS311200
+3113,Sugar and confectionery product manufacturing,3113,BS311300
+3114,Fruit and vegetable preserving and specialty food manufacturing,3114,BS311400
+3115,Dairy product manufacturing,3115,BS311500
+3116,Meat product manufacturing,3116,BS311600
+3117,Seafood product preparation and packaging,3117,BS311700
+3118,Bakeries and tortilla manufacturing,3118,BS311800
+3119,Other food manufacturing,3119,BS311900
+312,Beverage and tobacco product manufacturing,312,"BS312110, BS312120, BS3121A0, BS312A00"
+31211,Soft drink and ice manufacturing,31211,BS312110
+31212,Breweries,31212,BS312120
+3121A,Wineries and distilleries,"31213, 31214",BS3121A0
+312A,Tobacco and cannabis product manufacturing,"3122, 3123",BS312A00
+31X,"Textile, clothing and leather product manufacturing",313 to 316,"BS31A000, BS31B000"
+321,Wood product manufacturing,321,BS32100
+3211,Sawmills and wood preservation,3211,BS321100
+3212,"Veneer, plywood and engineered wood product manufacturing",3212,BS321200
+3219,Other wood product manufacturing,3219,BS321900
+322,Paper manufacturing,322,"BS322100, BS322200"
+3221,"Pulp, paper and paperboard mills",3221,BS322100
+3222,Converted paper product manufacturing,3222,BS322200
+323,Printing and related support activities,323,BS323000
+324,Petroleum and coal product manufacturing,324,BS324000
+32411,Petroleum refineries,32411,BS324110
+3241A,Petroleum and coal product manufacturing (except petroleum refineries),324 excluding 32411,BS3241A0
+325,Chemical manufacturing,325,BS325100 to BS325900
+3251,Basic chemical manufacturing,3251,BS325100
+325C,Miscellaneous chemical product manufacturing,"3252, 3255 to 3259","BS325200, BS325500, BS325600, BS325900"
+3252,"Resin, synthetic rubber, and artificial and synthetic fibres and filaments manufacturing",3252,BS325200
+325A,Other miscellaneous chemical product manufacturing,3255 to 3259,"BS325500, BS325600, BS325900"
+3253,"Pesticide, fertilizer and other agricultural chemical manufacturing",3253,BS325300
+3254,Pharmaceutical and medicine manufacturing,3254,BS325400
+326,Plastics and rubber products manufacturing,326,"BS326100, BS326200"
+327,Non-metallic mineral product manufacturing,327,"BS327A00, BS327300"
+331,Primary metal manufacturing,331,BS33100
+3311,Iron and steel mills and ferro-alloy manufacturing,3311,BS331100
+3312,Steel product manufacturing from purchased steel,3312,BS331200
+3313,Alumina and aluminum production and processing,3313,BS331300
+3314,Non-ferrous metal (except aluminum) production and processing,3314,BS331400
+3315,Foundries,3315,BS331500
+332,Fabricated metal product manufacturing,332,BS33200
+333,Machinery manufacturing,333,BS33300
+334,Computer and electronic product manufacturing,334,BS33400
+335,"Electrical equipment, appliance and component manufacturing",335,BS33500
+336,Transportation equipment manufacturing,336,BS336110 to BS336900
+336Y,Motor vehicles and parts manufacturing,"3361, 3362, 3363","BS336110, BS336120, BS336200, BS336300"
+3361,Motor vehicle manufacturing,3361,"BS336110, BS336120"
+3362,Motor vehicle body and trailer manufacturing,3362,BS336200
+3363,Motor vehicle parts manufacturing,3363,BS336300
+3364,Aerospace product and parts manufacturing,3364,BS336400
+3365,Railroad rolling stock manufacturing,3365,BS336500
+3366,Ship and boat building,3366,BS336600
+3369,Other transportation equipment manufacturing,3369,BS336900
+337,Furniture and related product manufacturing,337,BS33700
+339,Miscellaneous manufacturing,339,BS33900
+3391,Medical equipment and supplies manufacturing,3391,BS339100
+3399,Other miscellaneous manufacturing,3399,BS339900
+41,Wholesale trade,41,BS410
+411,Farm product merchant wholesalers,411,BS411000
+412,"Petroleum, petroleum products, and other hydrocarbons merchant wholesalers",412,BS412000
+413,"Food, beverage and tobacco merchant wholesalers",413,BS413000
+414,Personal and household goods merchant wholesalers,414,BS414000
+415,Motor vehicle and motor vehicle parts and accessories merchant wholesalers,415,BS415000
+416,Building material and supplies merchant wholesalers,416,BS416000
+417,"Machinery, equipment and supplies merchant wholesalers",417,BS417000
+418,Miscellaneous merchant wholesalers,418,BS418000
+419,"Business-to-business electronic markets, and agents and brokers",419,BS419000
+44-45,Retail trade Table note 7,44 to 45,BS4A0
+441,Motor vehicle and parts dealers,441,BS441000
+444,Building material and garden equipment and supplies dealers,444,BS444000
+445,Food and beverage retailers,445,BS445000
+449,"Furniture, home furnishings, electronics and appliances retailers",449,BS449000
+455,General merchandise retailers,455,BS455000
+456,Health and personal care retailers,456,BS456000
+457,Gasoline stations and fuel vendors,457,BS457000
+458,"Clothing, clothing accessories, shoes, jewelry, luggage and leather goods retailers",458,BS458000
+459,"Sporting goods, hobby, musical instrument, book, and miscellaneous retailers Table note 7",459,"BS459A00, BS459BL0, BS459BU0"
+459A,"Sporting goods, hobby, musical instrument, book, and miscellaneous retailers (except cannabis)",459 excluding 459993,BS459A00
+459BL,Cannabis retailers (licensed),459993,BS459BL0
+459BU,Cannabis retailers (unlicensed) Table note 7,459993,BS459BU0
+4AA,Retail trade (except cannabis),"44 to 45, excluding 459993",BS4AA00
+48-49,Transportation and warehousing,48 to 49,BS4B0
+481,Air transportation,481,BS481000
+482,Rail transportation,482,BS482000
+483,Water transportation,483,BS483000
+484,Truck transportation,484,BS484000
+48Z,"Transit, ground passenger and scenic and sightseeing transportation","485, 487","BS485100, BS48A000, BS485300"
+4851,Urban transit systems,4851,BS485100
+48A,Other transit and ground passenger transportation and scenic and sightseeing transportation,"4852, 4854, 4855, 4859, 487",BS48A000
+4853,Taxi and limousine service,4853,BS485300
+486,Pipeline transportation,486,BS48600
+486A,Crude oil and other pipeline transportation,486 excluding 4862,BS486A00
+4862,Pipeline transportation of natural gas,4862,BS486200
+488,Support activities for transportation,488,BS488000
+49A,"Postal service, couriers and messengers","491, 492",BS49A00
+491,Postal service,491,BS491000
+492,Couriers and messengers,492,BS492000
+493,Warehousing and storage,493,BS493000
+51,Information and cultural industries,51,BS510
+512,Motion picture and sound recording industries,512,BS51200
+5121,Motion picture and video industries,5121,"BS5121A0, BS512130"
+5122,Sound recording industries,5122,BS512200
+513,Publishing industries,513,"BS513110, BS5131A0, BS513200"
+5131,"Newspaper, periodical, book and directory publishers",5131,"BS513110, BS5131A0"
+5132,Software publishers,5132,BS513200
+516,Broadcasting and content providers,516,"BS516100, BS516211, BS51621A"
+5161,Radio and television broadcasting stations,5161,BS516100
+5162,Media streaming distribution services and other media networks and content providers,5162,"BS516211, BS51621A"
+517,Telecommunications,517,BS517000
+518,"Computing infrastructure providers, data processing, web hosting, and related services",518,BS518000
+519,"Web search portals, libraries, archives, and all other information services",519,BS519000
+51A,"Pay and specialty television, telecommunications and other information services","5162, 517, 519",BS51A000
+52,Finance and insurance,52,"BS521000, BS5221A0, BS522B00, BS52E000, BS524100"
+52BX,"Banking, monetary authorities and other depository credit intermediation","521, 52211, 52219","BS521000, BS5221A0"
+522B,Credit unions,"52213, 522321",BS522B00
+52E,Other finance and insurance,"5222, 5223 (excluding 522321), 523, 5242, 526",BS52E000
+5222,Non-depository credit intermediation,5222,BS522200
+52C,Financial auxiliaries,"52231, 522329, 523 (excluding 52311, 52313 and 52391), 5242",BS52C000
+52D,Other financial intermediaries,"52239, 52311, 52313, 52391 and 526981",BS52D000
+526A,Funds and other financial vehicles (except securitization vehicles),526 excluding 526981,BS526A00
+5241,Insurance carriers,5241,BS524100
+53,Real estate and rental and leasing,"53, 5311A","BS531100, BS531A00, BS5311A0, BS532100, BS532A00, BS533000"
+531,Real estate,"531, 5311A","BS531100, BS531A00, BS5311A0"
+5311,Lessors of real estate,5311,BS531100
+531A,Offices of real estate agents and brokers and activities related to real estate,"5312, 5313",BS531A00
+5311A,Owner-occupied dwellings Table note 8,...,BS5311A0
+532,Rental and leasing services,532,"BS532100, BS532A00"
+5321,Automotive equipment rental and leasing,5321,BS532100
+532A,Rental and leasing services (except automotive equipment),532 excluding 5321,BS532A00
+533,Lessors of non-financial intangible assets (except copyrighted works),533,BS533000
+53A,Rental and leasing services (except automotive equipment) and lessors of non-financial intangible assets (except copyrighted works),"532 (excluding 5321), 533","BS532A00, BS533000"
+54,"Professional, scientific and technical services",54,BS540
+541A,"Legal, accounting and related services","5411, 5412",BS541A00
+5411,Legal services,5411,BS541100
+5412,"Accounting, tax preparation, bookkeeping and payroll services",5412,BS541200
+5413,"Architectural, engineering and related services",5413,BS541300
+541B,"Other professional, scientific and technical services including scientific research and development","5414, 5416, 5417, 5419",BS541B00
+5414,Specialized design services,5414,BS541400
+5416,"Management, scientific and technical consulting services",5416,BS541600
+5417,Scientific research and development services,5417,BS541700
+5419,"Other professional, scientific and technical services",5419,BS541900
+5415,Computer systems design and related services,5415,BS541500
+5418,"Advertising, public relations, and related services",5418,BS541800
+55,Management of companies and enterprises Table note 9,55,BS551113
+56,"Administrative and support, waste management and remediation services",56,BS560
+561,Administrative and support services,561,BS56100
+561B,Other administrative and support services,"5611 to 5614, 5619",BS561B00
+5611,Office administrative services,5611,BS561100
+561A,Facilities and other support services,"5612, 5619",BS561A00
+5613,Employment services,5613,BS561300
+5614,Business support services,5614,BS561400
+5615,Travel arrangement and reservation services,5615,BS561500
+5616,Investigation and security services,5616,BS561600
+5617,Services to buildings and dwellings,5617,BS561700
+562,Waste management and remediation services,562,BS562000
+61,Educational services,61,"BS610000, GS611100, GS611200, GS611300, NP610000"
+6111,Elementary and secondary schools,6111,"GS611100, NP610000 Table note *"
+6112,Community colleges and C.E.G.E.P.s,6112,GS611200
+6113,Universities,6113,GS611300
+611A,Other educational services,6114 to 6117,"BS610000, NP610000 Table note *"
+62,Health care and social assistance,62,"BS620, GS620, NP621000, NP624000"
+62X,Health care,62 excluding 624,"BS621100, BS621200, BS621A00, BS623000, GS62A000 Table note * , GS622000, GS623000, NP621000"
+621,Ambulatory health care services,621,"BS621100, BS621200, BS621A00, GS62A000 Table note * , NP621000"
+622,Hospitals,622,GS622000
+623,Nursing and residential care facilities,623,"BS623000, GS623000"
+624,Social assistance,624,"BS624000, GS62A000, NP624000"
+71,"Arts, entertainment and recreation",71,"BS710, NP710000"
+71A,"Performing arts, spectator sports and related industries, and heritage institutions","711, 712","BS71A000, NP710000 Table note *"
+713,"Amusement, gambling and recreation industries",713,"BS713A00, BS713200, NP710000 Table note *"
+713A,Amusement and recreation industries,713 excluding 7132,"BS713A00, NP710000 Table note *"
+7132,Gambling industries,7132,"BS713200, NP710000 Table note *"
+72,Accommodation and food services,72,BS720
+721,Accommodation services,721,"BS721100, BS721A00"
+722,Food services and drinking places,722,BS722000
+81,Other services (except public administration),81,"BS810, NP813100, NP813A00"
+811,Repair and maintenance,811,BS81100
+8111,Automotive repair and maintenance,8111,BS811100
+811A,Repair and maintenance (except automotive),811 excluding 8111,BS811A00
+812,Personal and laundry services,812,"BS812A00, BS812200, BS812300"
+813,"Religious, grant-making, civic, and professional and similar organizations",813,"BS813000, NP813100, NP813A00"
+814,Private households,814,BS814000
+91,Public administration Table note 6,91,GS911 to GS914
+911,Federal government public administration Table note 6,911,GS911
+9111,Defence services Table note 6,9111,GS911100
+911A,Federal government public administration (except defence) Table note 6,911 excluding 9111,GS911A00
+912,Provincial and territorial public administration Table note 6,912,GS912000
+913,"Local, municipal and regional public administration Table note 6",913,GS913000
+914,Indigenous public administration,914,GS914000

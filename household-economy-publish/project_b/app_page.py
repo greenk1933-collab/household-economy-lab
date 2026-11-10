@@ -20,7 +20,7 @@ def render():
     import plotly.express as px
     st.caption('ONTARIO HOUSING  /  LEGAL RULES · THEORY · OBSERVED MARKETS')
     st.title('Who gets the value of new-home tax relief?')
-    st.markdown('A rebate changes the tax bill. Whether buyers retain its economic value depends on how prices would have moved without it. Explore those two questions separately.')
+    st.markdown("In its March 26, 2026 budget, Ontario introduced temporary relief of up to **$130,000 in HST** for eligible buyers of new homes under qualifying agreements signed from April 1, 2026, through March 31, 2027, aiming to improve affordability and support construction. But who ultimately benefits? **Supply-and-demand tax-incidence theory** explains that a tax cut's value is shared according to how strongly buyers and sellers respond to price changes; the less price-responsive side generally captures more. This tool begins with that economic model, then combines a statutory rebate and closing-cost calculator with Statistics Canada regional new-home price and construction data, published housing elasticity research, and **48 advertised model and elevation offers from one Ontario builder**. Explore the possible division of relief, while recognizing that the evidence does not establish how much developers actually captured.")
     calc,theory,observed=st.tabs(['Rebate & closing costs','Who benefits?','Regional evidence'])
     with calc:
         st.subheader('Start with the actual tax rules')

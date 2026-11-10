@@ -1,4 +1,3 @@
-# household-economy-lab
 # The Household Economy Data Tools. By Kiernan Green, for consideration of The Globe and Mail Personal Finance Unit.
 
 Three functioning, local Canadian personal-finance data-journalism pilots. Research snapshot: **November 10, 2026**. Independently developed; not commissioned or endorsed by The Globe and Mail.

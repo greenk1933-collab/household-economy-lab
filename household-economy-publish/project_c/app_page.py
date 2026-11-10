@@ -8,7 +8,7 @@ def render():
  import streamlit as st
  import plotly.graph_objects as go
  st.caption('CANADIAN VALUE ADDED  /  PUBLISHED ESTIMATES + DERIVED CALCULATIONS')
- st.title('What part of your spending becomes Canadian value added?')
+ st.title('TEST: What part of your spending becomes Canadian value added?') 
  st.markdown("After U.S. tariffs reignited Canada-U.S. trade tensions in 2025, Canadians increasingly sought domestic alternatives; in February 2026, Bank of Canada researchers documented a shift in grocery spending toward products associated with Canada. But **how much Canadian economic activity does buying Canadian actually support?** Statistics Canada's **input-output data** trace the goods and services industries buy from one another, the imported inputs they use, and the value created by producers and their suppliers. I mapped its published **2022 national industry multipliers** into 12 consumer-facing categories and multiplied each industry's direct and upstream GDP and labour-income coefficients by a chosen amount of Canadian industry output. The app separately charts newer quarterly household spending and monthly trade, industry GDP and employment, and references 2024 input-output totals; **none of these newer figures is used to update the 2022 multipliers**. Compare domestic production relationships without mistaking industry estimates for the Canadian content of a specific retail purchase.")
  df=pd.read_csv(ROOT/'data/processed/category_coefficients.csv')
  allc=pd.read_csv(ROOT/'data/processed/industry_coefficients.csv').set_index('code')
